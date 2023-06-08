@@ -289,6 +289,10 @@ header {
     color: $theme-primary;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
