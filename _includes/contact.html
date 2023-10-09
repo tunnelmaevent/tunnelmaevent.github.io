@@ -8,26 +8,29 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-xs-3 col-md-1 col-md-offset-4">
-                <a href="tel:{{ site.phone }}">
-                    <i class="fa fa fa-phone wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-xs-3 col-md-1">
-                <a href="mailto:{{ site.email }}">
-                    <i class="fa fa-envelope-o wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-xs-3 col-md-1">
-                <a href="https://facebook.com/{{ site.facebook_username }}">
-                    <i class="fa fa-facebook wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div class="col-xs-3 col-md-1">
-                <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-                    <i class="fa fa-instagram wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true"></i>
-                </a>
-            </div>
+            <h4><strong>Customer service</strong></h4>
+            <p>
+                Mon-Wed | 8-15<br/>
+                <i class="fa fa-phone wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true" style="font-size: 1em;"></i>
+                <a href="tel:{{ site.phone }}">{{ site.phone }}</a><br/>
+                <i class="fa fa-envelope-o wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true" style="font-size: 1em;"></i>
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>    
+        </div>
+        <div class="text-center">
+            <h4><strong>Follow us!</strong></h4>
+            <div class="row mt-3">
+                <div class="col-xs-2 col-xs-offset-4 col-md-1 col-md-offset-5">
+                    <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+                        <i class="fa fa-instagram wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-xs-2 col-md-1">
+                    <a href="https://facebook.com/{{ site.facebook_username }}">
+                        <i class="fa fa-facebook wow bounceIn text-white" data-wow-delay=".1s" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div> 
         </div>
     </div>
 </section>
